@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.accessNotif {
+    font-size: 1rem;
+}
+
+.adminModerator {
+    color: green;
+}
+
+.member {
+    color: blue;
+}
+
+.guest {
+    color: orange;
+}
+
+.noCriteria {
+    color: red;
+}
+
+body {
+    background: black;
+}
+
+.userAccessSystem {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.userAccessSystem h1 {
+    font-family: impact;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    color: orangered;
+}
+
+input {
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    /* border: 1px solid orangered; */
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+.userAccessInterface {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 10px 0px;
+    width: 195px;
+    height: 200px;
+    margin-top: 10px;
+    /* background: yellow; */
+}
+
+.userAccessInterface button {
+    padding: 8px 10px;
+    /* background: transparent; */
+    border: 1px solid white;
+    outline: none;
+    border-radius: 16px;
+    transition: all 0.5s ease;
+}
+
+.userAccessInterface button:hover {
+    background: transparent;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.accessNotif {
+    margin-top: 25px;
+}
